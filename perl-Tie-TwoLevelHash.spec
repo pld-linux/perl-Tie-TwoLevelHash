@@ -3,7 +3,7 @@ Summary:	Tie-TwoLevelHash perl module
 Summary(pl):	Modu³ perla Tie-TwoLevelHash
 Name:		perl-Tie-TwoLevelHash
 Version:	1.2
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
