@@ -30,7 +30,7 @@ pozwala dowi±zaæ siê do pliku tekstowego, który jest wielowymiarowym
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
