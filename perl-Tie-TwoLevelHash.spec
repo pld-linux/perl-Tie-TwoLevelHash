@@ -4,7 +4,7 @@
 Summary:	Tie::TwoLevelHash - Tied interface to multi-dimensional (Two-Level) hash files
 Name:		perl-Tie-TwoLevelHash
 Version:	1.2
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
