@@ -28,7 +28,7 @@ pozwala dowi±zaæ siê do pliku tekstowego, który jest wielowymiarowym
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
