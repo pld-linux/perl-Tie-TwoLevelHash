@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tie
-%define	pnam	TwoLevelHash
+%define		pdir	Tie
+%define		pnam	TwoLevelHash
 Summary:	Tie::TwoLevelHash - tied interface to multi-dimensional (two-level) hash files
 Summary(pl):	Tie::TwoLevelHash - interfejs do wielowymiarowych (dwupoziomowych) plików haszy
 Name:		perl-Tie-TwoLevelHash
