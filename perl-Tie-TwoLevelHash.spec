@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	TwoLevelHash
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie-TwoLevelHash perl module
 Summary(pl):	Modu³ perla Tie-TwoLevelHash
 Name:		perl-Tie-TwoLevelHash
 Version:	1.2
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Tie-TwoLevelHash perl module.
 Modu³ perla Tie-TwoLevelHash.
 
 %prep
-%setup -q -n Tie-TwoLevelHash-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
