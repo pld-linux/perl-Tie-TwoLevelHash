@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	TwoLevelHash
-Summary:	Tie-TwoLevelHash perl module
-Summary(pl):	Modu³ perla Tie-TwoLevelHash
+Summary:	Tie::TwoLevelHash perl module
+Summary(pl):	Modu³ perla Tie::TwoLevelHash
 Name:		perl-Tie-TwoLevelHash
 Version:	1.2
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tie-TwoLevelHash perl module.
+Tie::TwoLevelHash perl module.
 
 %description -l pl
-Modu³ perla Tie-TwoLevelHash.
+Modu³ perla Tie::TwoLevelHash.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
