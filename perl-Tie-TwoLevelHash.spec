@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	TwoLevelHash
 Summary:	Tie::TwoLevelHash - tied interface to multi-dimensional (two-level) hash files
-Summary(pl):	Tie::TwoLevelHash - interfejs do wielowymiarowych (dwupoziomowych) plików haszy
+Summary(pl.UTF-8):   Tie::TwoLevelHash - interfejs do wielowymiarowych (dwupoziomowych) plikÃ³w haszy
 Name:		perl-Tie-TwoLevelHash
 Version:	1.2
 Release:	11
@@ -25,9 +25,9 @@ This is the Tie::TwoLevelHash module.  It is a TIEHASH interface which
 lets you tie to a text file which is a multi-dimensional (two level)
 hash.
 
-%description -l pl
-To jest modu³ Tie::TwoLevelHash. Jest to interfejs TIEHASH, który
-pozwala dowi±zaæ siê do pliku tekstowego, który jest wielowymiarowym
+%description -l pl.UTF-8
+To jest moduÅ‚ Tie::TwoLevelHash. Jest to interfejs TIEHASH, ktÃ³ry
+pozwala dowiÄ…zaÄ‡ siÄ™ do pliku tekstowego, ktÃ³ry jest wielowymiarowym
 (dwupoziomowym) haszem.
 
 %prep
