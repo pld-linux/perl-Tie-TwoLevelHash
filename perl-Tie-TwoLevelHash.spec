@@ -9,7 +9,7 @@ Summary:	Tie::TwoLevelHash - tied interface to multi-dimensional (two-level) has
 Summary(pl.UTF-8):	Tie::TwoLevelHash - interfejs do wielowymiarowych (dwupoziomowych) plików haszy
 Name:		perl-Tie-TwoLevelHash
 Version:	1.2
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
