@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Tie
 %define		pnam	TwoLevelHash
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::TwoLevelHash - tied interface to multi-dimensional (two-level) hash files
 Summary(pl.UTF-8):	Tie::TwoLevelHash - interfejs do wielowymiarowych (dwupoziomowych) plików haszy
 Name:		perl-Tie-TwoLevelHash
@@ -15,13 +15,14 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	68cb91a69c63ef90018e7395948fa828
+URL:		http://search.cpan.org/dist/Tie-TwoLevelHash/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is the Tie::TwoLevelHash module.  It is a TIEHASH interface which
+This is the Tie::TwoLevelHash module. It is a TIEHASH interface which
 lets you tie to a text file which is a multi-dimensional (two level)
 hash.
 
