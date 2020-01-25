@@ -4,7 +4,6 @@
 
 %define		pdir	Tie
 %define		pnam	TwoLevelHash
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::TwoLevelHash - tied interface to multi-dimensional (two-level) hash files
 Summary(pl.UTF-8):	Tie::TwoLevelHash - interfejs do wielowymiarowych (dwupoziomowych) plików haszy
 Name:		perl-Tie-TwoLevelHash
